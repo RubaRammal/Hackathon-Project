@@ -35,6 +35,9 @@ body {
         /*float: left !important;*/
 }
 
+
+
+
 .nav-costume-btn {
     background-color: #f4f1eb;
 }
@@ -66,7 +69,7 @@ body {
 
 .steps {
     background-color: #3d3d3f;
-    height: 800px;
+    height: 400px;
     margin-right: 1px;
     margin-left: 1px;
     padding: 20px;
@@ -77,6 +80,125 @@ body {
     padding-right: 0;
 }
 
+
+.browse-title {
+     background-color: #f4f1eb;
+     height: 80px;
+     padding: 20px;
+     font-size: 2em;
+}
+
+.category-block {
+
+background-color: #f4f1eb;
+     height: 250px;
+padding-left: 120px;
+     /*margin:auto;*/
+
+
+}
+
+.category:hover {
+     background-color: #4d835c;
+
+     /*margin:auto;*/
+
+}
+
+.category {
+
+    list-style: none;
+    height: 160px;
+     background-color: #77ce90;
+     margin-right: 10%;
+     width: 150px;
+     margin-bottom: 20px;
+
+     padding: 10px;
+     font-size: 1em;
+      display:inline-block;
+      text-align: center;
+
+}
+
+.cat-img {
+    padding-bottom: 10px;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    height: 30px;
+    background-color: #3d3d3f;
+    text-align: center;
+vertical-align: middle;
+color: #fff;
+margin: 0;
+}
+
+.problem-card{
+    width: 100%;
+    height: 100px;
+    /*position: relative;*/
+    background-color: #fff;
+    /*float: right;*/
+    -webkit-box-shadow: 2px 2px 16px 0px rgba(50, 50, 50, 0.45);
+-moz-box-shadow:    2px 2px 16px 0px rgba(50, 50, 50, 0.45);
+box-shadow:         2px 2px 16px 0px rgba(50, 50, 50, 0.45);
+background-color: #fffbf6;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+/*margin:10px;*/
+/*margin-left: 20px;*/
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+.problems{
+    height: 100%;
+    background-color: #f4f1eb;
+    padding: 20px;
+    margin: 
+
+
+}
+
+.filter{
+    background-color: #f4f1eb;
+
+    height: 100px;
+    /*width: 100%;*/
+
+}
+/*
+.problem-nav{
+    height: 100%;
+    width: 40;
+    margin: 20px;
+    background-color: #fff;
+    float: left;
+    position: relative;
+    z-index: 500;
+
+}*/
+
+@media screen and (max-width: 499px) {
+.category-block {
+
+     height: 800px;
+     /*margin:auto;*/
+
+
+}
+}
+@media screen and (min-width: 500px) and (max-width: 1199px) {
+.category-block {
+
+     height: 400px;
+}
+}
 
 
 
@@ -136,10 +258,10 @@ body {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #fed136;
+  background-color: #fffbf6;
   color: white;
   border-radius: 100%;
-  border: 7px solid #f1f1f1;
+  border: 3px solid #f4f1eb;
   text-align: center;
 }
 .timeline > li .timeline-image h4 {
@@ -169,10 +291,11 @@ body {
 }
 .timeline .timeline-heading h4 {
   margin-top: 0;
-  color: inherit;
+  color: #f4f1eb;
 }
 .timeline .timeline-heading h4.subheading {
   text-transform: none;
+  font-size: 28px;
 }
 .timeline .timeline-body > p,
 .timeline .timeline-body > ul {
@@ -183,7 +306,7 @@ body {
     left: 50%;
   }
   .timeline > li {
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     min-height: 100px;
   }
   .timeline > li .timeline-panel {
@@ -199,63 +322,57 @@ body {
     margin-left: -50px;
   }
   .timeline > li .timeline-image h4 {
-    font-size: 13px;
+    font-size: 20px;
     margin-top: 16px;
     line-height: 18px;
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
     text-align: left;
-    padding: 0 30px 20px 20px;
+    padding: 0 30px 0px 20px;
   }
 }
 @media (min-width: 992px) {
   .timeline > li {
-    min-height: 150px;
+    min-height: 100px;
+    margin-bottom: 20px;
   }
   .timeline > li .timeline-panel {
     padding: 0 20px 20px;
   }
   .timeline > li .timeline-image {
-    width: 150px;
-    height: 150px;
-    margin-left: -75px;
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
   }
   .timeline > li .timeline-image h4 {
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 30px;
     line-height: 26px;
   }
   .timeline > li.timeline-inverted > .timeline-panel {
-    padding: 0 20px 20px;
+    padding: 0 20px 0px;
   }
 }
 @media (min-width: 1200px) {
   .timeline > li {
-    min-height: 170px;
+    min-height: 100px;
+    margin-bottom: 20px;
   }
   .timeline > li .timeline-panel {
     padding: 0 20px 20px 100px;
   }
   .timeline > li .timeline-image {
-    width: 170px;
-    height: 170px;
-    margin-left: -85px;
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
   }
   .timeline > li .timeline-image h4 {
     margin-top: 40px;
+    font-size: 30px;
   }
   .timeline > li.timeline-inverted > .timeline-panel {
-    padding: 0 100px 20px 20px;
+    padding: 0 100px 0px 20px;
   }
 }
 
-
-
-@media screen and (max-width: 499px) {
-
-}
- /*breakpoint 2*/
-@media screen and (min-width: 500px) and (max-width: 995px) {
-
-}
