@@ -10,6 +10,7 @@
 		<script src="js/jquery-3.2.1.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Changa" rel="stylesheet">
+		<script src="js/app.js"></script>
 	</head>
 	<body>
 		<!-- TODO:  -->
@@ -50,7 +51,23 @@
 			
 
 			<div class="row problems">
-				<div class="col-md-12 problem-card"></div>
+				<div class="col-md-12 problem-card" id="problem" onclick="expandCard()">
+					<div class="p1">
+					<h3>Problem: solve a mathimatical algorithm</h3>
+					<h4>Science, Mathimatics</h4>
+					<span class="reward">1000$</span>
+				</div>
+
+				<div class="p2" style="display:none;">
+					<h3>Problem: solve a mathimatical algorithm</h3>
+					<h4>Science, Mathimatics</h4>
+					<hr>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+					<button class="btn btn-solve">Solve it!</button>
+					<span class="reward">1000$</span>
+				</div>
+					<!-- <button>Solve it!</button> -->
+				</div>
 				<div class="col-md-12 problem-card"></div>
 				<div class="col-md-12 problem-card"></div>
 				<div class="col-md-12 problem-card"></div>
@@ -63,8 +80,10 @@
 
 
 
+
 			<footer class="row footer">Copy rights 2017 - MisK-Udacity</footer>
 
 		</div>
+
 	</body>
 </html>
