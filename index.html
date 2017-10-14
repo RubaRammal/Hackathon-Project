@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="css/style.css">
 		<script src="js/jquery-3.2.1.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Changa" rel="stylesheet">
 	</head>
 	<body>
 		<!-- TODO:  -->
@@ -16,9 +17,117 @@
 		<div class="container">
 
 
-			<div class="row">
+			<!-- <div class="row header">
+				<div class="col-md-6">
+					<img src="http://via.placeholder.com/100x100" alt="Logo">
+				</div>
+				<div class="col-md-6">nav</div>
+			</div>		 -->
 
+
+			<div class="row">
+			<!-- Code source: bootstrap navbar documentation -->
+				<nav class="navbar costume-nav">
+					<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed nav-costume-btn" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar icon-bar2"></span>
+							<span class="icon-bar icon-bar2"></span>
+							<span class="icon-bar icon-bar2"></span>
+							</button>
+							<a class="navbar-brand" href="#">حلّ</a>
+						</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="#">About <span class="sr-only">(current)</span></a></li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</div><!-- /.container-fluid -->
+				</nav>
 			</div>
+
+			<div class="row main">
+				<div class="col-md-12 main-img">
+					<div class="main-description" style="display:none;">
+						<span class="desription">تصفّح المشاكل</span>
+						<span class="desription">جد الحلول</span>
+						<span class="desription">احصل على مكافئتك</span>
+					</div>
+					<img class="img-responsive" src="http://via.placeholder.com/1200x700" alt="Main image">
+				</div>
+			</div>			
+			<div class="row steps">
+<!-- 				<div class="col-md-3">
+					<img class="img-responsive " src="images/find.png" alt="Main image">
+				</div>
+				<div class="col-md-3">2</div>
+				<div class="col-md-3">3</div>
+				<div class="col-md-3">4</div> -->
+
+				   <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>التاريخ</h4>
+                                    <h4 class="subheading">اسم المشروع</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">نص عن المشروع</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>تاريخ</h4>
+                                    <h4 class="subheading">اسم المشروع</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">نص عن المشروع</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>التاريخ</h4>
+                                    <h4 class="subheading">اسم المشروع</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">نص عن المشروع</p>
+                                </div>
+                            </div>
+                        </li>
+
+                    
+                    </ul>
+
+
+			</div>	
+			<div class="row browse-title">
+				<span>Browse Categories</span>
+			</div>		
+			<ul class="row categories">
+				<li class="col-md-3">categ 1</li>
+				<li class="col-md-3">categ 2</li>
+				<li class="col-md-3">categ 3</li>
+				<li class="col-md-3">categ 4</li>
+			</ul>
+
+
 
 		</div>
 	</body>
